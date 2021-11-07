@@ -1,5 +1,5 @@
-## - npm install
-## - npm start
+## npm install
+## npm start
 
 ## Após os seguintes comandos, abrir no navegador: localhost:8000
 
