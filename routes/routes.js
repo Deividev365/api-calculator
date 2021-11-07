@@ -53,6 +53,23 @@ module.exports = function(server) {
         
     //route Multiplication
        
+    //route Division
+    server.route({
+            method: 'GET',
+            path: '/div/{num1}/{num2}',
+            handler: function (pedido) {
     
+                const num1 = parseInt(pedido.params.num1);
+                const num2 = parseInt(pedido.params.num2);
+    
+                var data = {
+                    resultado: num1 / num2
+                };
+
+                console.log(data)
+        
+                return data;
+            }
+        });
 
     }
