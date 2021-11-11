@@ -1,5 +1,6 @@
 //Framework hapi.js
 const Hapi = require('hapi');
+const Joi = require('joi');
 
 // logic port and machine
 const host = 'localhost';
